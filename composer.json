@@ -1,5 +1,5 @@
 {
-    "name": "l3/cas-bundle",
+    "name": "MaxMotionR/cas-bundle",
     "type": "symfony-bundle",
     "description": "PHPCas wrapper for Symfony2, Symfony3, Symfony4",
     "homepage": "https://github.com/l3-team/CasBundle",
@@ -9,19 +9,25 @@
             "name": "Pierre Pélisset",
             "email": "pierre.pelisset@univ-lille3.fr"
         },
-	{
+        {
             "name": "Mathieu Hétru",
             "email": "mathieu.hetru@univ-lille.fr"
+        },
+        {
+            "name": "Maximilien Regnier",
+            "email": "mregnier.dev@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.1.3",
         "jasig/phpcas": "~1.3",
-	"symfony/security-bundle": "~4.0",
-	"symfony/framework-bundle": "~4.0"
+        "symfony/security-bundle": "~3.4",
+        "symfony/framework-bundle": "~3.4"
     },
     "autoload": {
-        "psr-4": { "L3\\Bundle\\CasBundle\\": "" }
+        "psr-4": {
+            "MaxMotionR\\Bundle\\CasBundle\\": ""
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
